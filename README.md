@@ -19,32 +19,38 @@ To run this application, you need to have the following software installed on yo
 
 1. Clone the repository to your local machine:
 
-    git clone git@github.com:chuongpnt/bitA.git
+
+	•	git clone git@github.com:chuongpnt/bitA.git
 
 2.	Navigate to the project directory:
 
-    cd your-clone-folder
+
+	•	cd your-clone-folder
 
 3.	Install Composer dependencies:
 
-    composer install
+
+	•	composer install
 
 4.	Configure Environment Variables
-    Copy the .env.test file and rename it to .env:
+
+
+	•	Copy the .env.test file and rename it to .env:
 
 5.	Generate Application Key
 
-    php artisan key:generate
+
+	•	php artisan key:generate
 
 ### Usage
+1.	Run the command to crawl Lazada products:
 
-	1.	Run the command to crawl Lazada products:
 
-php artisan crawl:lazada-products
+	•	php artisan crawl:lazada-products
 
 
 ### Acknowledgments
 
-	•	This project was inspired by the need to retrieve data from Lazada for personal use.
+This project was inspired by the need to retrieve data from Lazada for personal use.
 
 Feel free to customize it further based on your specific project requirements!
